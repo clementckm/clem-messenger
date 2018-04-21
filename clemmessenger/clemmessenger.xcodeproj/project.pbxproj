@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8375E51E213E2C00D42F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8375E41E213E2C00D42F4D /* AppDelegate.swift */; };
+		DA8375E71E213E2C00D42F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8375E61E213E2C00D42F4D /* ViewController.swift */; };
+		DA8375ED1E213E2C00D42F4D /* clemmessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA8375EB1E213E2C00D42F4D /* clemmessenger.xcdatamodeld */; };
+		DA8375EF1E213E2C00D42F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8375EE1E213E2C00D42F4D /* Assets.xcassets */; };
+		DA8375F21E213E2C00D42F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8375F01E213E2C00D42F4D /* LaunchScreen.storyboard */; };
+		DA8375FD1E213E2C00D42F4D /* clemmessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8375FC1E213E2C00D42F4D /* clemmessengerTests.swift */; };
+		DA8376081E213E2C00D42F4D /* clemmessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8376071E213E2C00D42F4D /* clemmessengerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA8375F91E213E2C00D42F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8375D91E213E2B00D42F4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8375E01E213E2B00D42F4D;
+			remoteInfo = clemmessenger;
+		};
+		DA8376041E213E2C00D42F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8375D91E213E2B00D42F4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8375E01E213E2B00D42F4D;
+			remoteInfo = clemmessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA8375E11E213E2C00D42F4D /* clemmessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clemmessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8375E41E213E2C00D42F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA8375E61E213E2C00D42F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA8375EC1E213E2C00D42F4D /* clemmessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clemmessenger.xcdatamodel; sourceTree = "<group>"; };
+		DA8375EE1E213E2C00D42F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA8375F11E213E2C00D42F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA8375F31E213E2C00D42F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8375F81E213E2C00D42F4D /* clemmessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clemmessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8375FC1E213E2C00D42F4D /* clemmessengerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clemmessengerTests.swift; sourceTree = "<group>"; };
+		DA8375FE1E213E2C00D42F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8376031E213E2C00D42F4D /* clemmessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clemmessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8376071E213E2C00D42F4D /* clemmessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clemmessengerUITests.swift; sourceTree = "<group>"; };
+		DA8376091E213E2C00D42F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8375DE1E213E2B00D42F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8375F51E213E2C00D42F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8376001E213E2C00D42F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8375D81E213E2B00D42F4D = {
+			isa = PBXGroup;
+			children = (
+				DA8375E31E213E2C00D42F4D /* clemmessenger */,
+				DA8375FB1E213E2C00D42F4D /* clemmessengerTests */,
+				DA8376061E213E2C00D42F4D /* clemmessengerUITests */,
+				DA8375E21E213E2C00D42F4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8375E21E213E2C00D42F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8375E11E213E2C00D42F4D /* clemmessenger.app */,
+				DA8375F81E213E2C00D42F4D /* clemmessengerTests.xctest */,
+				DA8376031E213E2C00D42F4D /* clemmessengerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8375E31E213E2C00D42F4D /* clemmessenger */ = {
+			isa = PBXGroup;
+			children = (
+				DA8375E41E213E2C00D42F4D /* AppDelegate.swift */,
+				DA8375E61E213E2C00D42F4D /* ViewController.swift */,
+				DA8375EE1E213E2C00D42F4D /* Assets.xcassets */,
+				DA8375F01E213E2C00D42F4D /* LaunchScreen.storyboard */,
+				DA8375F31E213E2C00D42F4D /* Info.plist */,
+				DA8375EB1E213E2C00D42F4D /* clemmessenger.xcdatamodeld */,
+			);
+			path = clemmessenger;
+			sourceTree = "<group>";
+		};
+		DA8375FB1E213E2C00D42F4D /* clemmessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA8375FC1E213E2C00D42F4D /* clemmessengerTests.swift */,
+				DA8375FE1E213E2C00D42F4D /* Info.plist */,
+			);
+			path = clemmessengerTests;
+			sourceTree = "<group>";
+		};
+		DA8376061E213E2C00D42F4D /* clemmessengerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA8376071E213E2C00D42F4D /* clemmessengerUITests.swift */,
+				DA8376091E213E2C00D42F4D /* Info.plist */,
+			);
+			path = clemmessengerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8375E01E213E2B00D42F4D /* clemmessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA83760C1E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessenger" */;
+			buildPhases = (
+				DA8375DD1E213E2B00D42F4D /* Sources */,
+				DA8375DE1E213E2B00D42F4D /* Frameworks */,
+				DA8375DF1E213E2B00D42F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clemmessenger;
+			productName = clemmessenger;
+			productReference = DA8375E11E213E2C00D42F4D /* clemmessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA8375F71E213E2C00D42F4D /* clemmessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA83760F1E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessengerTests" */;
+			buildPhases = (
+				DA8375F41E213E2C00D42F4D /* Sources */,
+				DA8375F51E213E2C00D42F4D /* Frameworks */,
+				DA8375F61E213E2C00D42F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8375FA1E213E2C00D42F4D /* PBXTargetDependency */,
+			);
+			name = clemmessengerTests;
+			productName = clemmessengerTests;
+			productReference = DA8375F81E213E2C00D42F4D /* clemmessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA8376021E213E2C00D42F4D /* clemmessengerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8376121E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessengerUITests" */;
+			buildPhases = (
+				DA8375FF1E213E2C00D42F4D /* Sources */,
+				DA8376001E213E2C00D42F4D /* Frameworks */,
+				DA8376011E213E2C00D42F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8376051E213E2C00D42F4D /* PBXTargetDependency */,
+			);
+			name = clemmessengerUITests;
+			productName = clemmessengerUITests;
+			productReference = DA8376031E213E2C00D42F4D /* clemmessengerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8375D91E213E2B00D42F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = clement;
+				TargetAttributes = {
+					DA8375E01E213E2B00D42F4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DA8375F71E213E2C00D42F4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA8375E01E213E2B00D42F4D;
+					};
+					DA8376021E213E2C00D42F4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA8375E01E213E2B00D42F4D;
+					};
+				};
+			};
+			buildConfigurationList = DA8375DC1E213E2B00D42F4D /* Build configuration list for PBXProject "clemmessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA8375D81E213E2B00D42F4D;
+			productRefGroup = DA8375E21E213E2C00D42F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8375E01E213E2B00D42F4D /* clemmessenger */,
+				DA8375F71E213E2C00D42F4D /* clemmessengerTests */,
+				DA8376021E213E2C00D42F4D /* clemmessengerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8375DF1E213E2B00D42F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8375F21E213E2C00D42F4D /* LaunchScreen.storyboard in Resources */,
+				DA8375EF1E213E2C00D42F4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8375F61E213E2C00D42F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8376011E213E2C00D42F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8375DD1E213E2B00D42F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8375E71E213E2C00D42F4D /* ViewController.swift in Sources */,
+				DA8375E51E213E2C00D42F4D /* AppDelegate.swift in Sources */,
+				DA8375ED1E213E2C00D42F4D /* clemmessenger.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8375F41E213E2C00D42F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8375FD1E213E2C00D42F4D /* clemmessengerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8375FF1E213E2C00D42F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8376081E213E2C00D42F4D /* clemmessengerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA8375FA1E213E2C00D42F4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8375E01E213E2B00D42F4D /* clemmessenger */;
+			targetProxy = DA8375F91E213E2C00D42F4D /* PBXContainerItemProxy */;
+		};
+		DA8376051E213E2C00D42F4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8375E01E213E2B00D42F4D /* clemmessenger */;
+			targetProxy = DA8376041E213E2C00D42F4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA8375F01E213E2C00D42F4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8375F11E213E2C00D42F4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA83760A1E213E2C00D42F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA83760B1E213E2C00D42F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA83760D1E213E2C00D42F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clemmessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA83760E1E213E2C00D42F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clemmessenger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA8376101E213E2C00D42F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clemmessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clemmessenger.app/clemmessenger";
+			};
+			name = Debug;
+		};
+		DA8376111E213E2C00D42F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clemmessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessengerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clemmessenger.app/clemmessenger";
+			};
+			name = Release;
+		};
+		DA8376131E213E2C00D42F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clemmessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clemmessenger;
+			};
+			name = Debug;
+		};
+		DA8376141E213E2C00D42F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clemmessengerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clem.messenger.clemmessengerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clemmessenger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8375DC1E213E2B00D42F4D /* Build configuration list for PBXProject "clemmessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA83760A1E213E2C00D42F4D /* Debug */,
+				DA83760B1E213E2C00D42F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA83760C1E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA83760D1E213E2C00D42F4D /* Debug */,
+				DA83760E1E213E2C00D42F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA83760F1E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8376101E213E2C00D42F4D /* Debug */,
+				DA8376111E213E2C00D42F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA8376121E213E2C00D42F4D /* Build configuration list for PBXNativeTarget "clemmessengerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8376131E213E2C00D42F4D /* Debug */,
+				DA8376141E213E2C00D42F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA8375EB1E213E2C00D42F4D /* clemmessenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA8375EC1E213E2C00D42F4D /* clemmessenger.xcdatamodel */,
+			);
+			currentVersion = DA8375EC1E213E2C00D42F4D /* clemmessenger.xcdatamodel */;
+			path = clemmessenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA8375D91E213E2B00D42F4D /* Project object */;
+}
